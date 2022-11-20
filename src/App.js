@@ -1,25 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import Carousel from './components/Carousel'
+const App = () => {
+   return (
+      <div style={{ maxWidth: 1200, marginLeft: 'auto', marginRight: 'auto', marginTop: 64 }}>
+         <Carousel>
+            <img src="https://via.placeholder.com/1600x300" alt="placeholder" />
+            <img src="https://via.placeholder.com/1600x300" alt="placeholder" />
+            <img src="https://via.placeholder.com/1600x300" alt="placeholder" />
+         </Carousel>
+      </div>
+   )
 }
 
-export default App;
+export default App
