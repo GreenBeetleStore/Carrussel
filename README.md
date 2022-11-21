@@ -1,3 +1,9 @@
+# How to Make a Simple React Carousel
+
+You can find the full tutorial in this address:
+
+https://dev.to/rakumairu/simple-react-carousel-24m0
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
