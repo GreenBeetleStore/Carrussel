@@ -2,8 +2,9 @@ import React, { useState, useEffect } from 'react'
 import './carousel.css'
 
 const Carousel = (props) => {
-   const { children } = props
-   const [currentIndex, setCurrentIndex] = useState(0)
+   const { children, show, infiniteLoop } = props
+
+   const [currentIndex, setCurrentIndex] = useState(infiniteLoop ? show : 0)
    const [length, setLength] = useState(children.length)
 
    // Estableix la longitud perquè coincideixi amb els "children" actuals dels "props".
